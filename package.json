@@ -1,0 +1,25 @@
+{
+  "name": "bulkinout",
+  "version": "1.0.0",
+  "description": "Compare bulk approaches",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matttrice/bulkinout.git"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "objects-to-csv": "^1.3.6",
+    "ramda": "^0.26.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  },
+  "author": "matttrice",
+  "license": "ISC",
+  "optionalDependencies": {
+    "ce-util": "^2.1.5"
+  }
+}

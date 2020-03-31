@@ -1,0 +1,99 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "caagilecentral",
+            "runtimeArgs": [
+                "--preserve-symlinks"
+            ],
+            "program": "${workspaceFolder}/index.js",
+            "env": {
+                "DOCTOR_ACCOUNT": "prd",
+                "BULKINOUT_ELEMENT_TOKEN": "",
+                "BULKINOUT_ELEMENT_KEY":"caagilecentral",
+                "BULKINOUT_ELEMENT_RESOURCE":"defect",
+                "BULKINOUT_VENDOR_RESOURCE":"defects",
+                "BULKINOUT_VENDOR_TOKEN":"",
+                "BULKINOUT_VENDOR_BASE_URL": "https://rally1.rallydev.com/slm/webservice/v2.0"
+            },
+            "skipFiles": [
+                "${workspaceFolder}/node_modules/**/*.js",
+                "${workspaceFolder}/lib/**/*.js",
+                "<node_internals>/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "sugarcrmv2",
+            "runtimeArgs": [
+                "--preserve-symlinks"
+            ],
+            "program": "${workspaceFolder}/index.js",
+            "env": {
+                "DOCTOR_ACCOUNT": "prd",
+                "BULKINOUT_ELEMENT_TOKEN": "",
+                "BULKINOUT_ELEMENT_KEY":"sugarcrmv2",
+                "BULKINOUT_ELEMENT_RESOURCE":"accounts",
+                "BULKINOUT_VENDOR_RESOURCE":"Accounts",
+                "BULKINOUT_VENDOR_TOKEN":"",
+                "BULKINOUT_VENDOR_BASE_URL": "https://cloudelementpro.sugarondemand.com/rest/v10"
+            },
+            "skipFiles": [
+                "${workspaceFolder}/node_modules/**/*.js",
+                "${workspaceFolder}/lib/**/*.js",
+                "<node_internals>/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "bullhorn",
+            "runtimeArgs": [
+                "--preserve-symlinks"
+            ],
+            "program": "${workspaceFolder}/index.js",
+            "env": {
+                "DOCTOR_ACCOUNT": "prd",
+                "BULKINOUT_ELEMENT_TOKEN": "",
+                "BULKINOUT_ELEMENT_KEY":"bullhorn",
+                "BULKINOUT_ELEMENT_RESOURCE":"candidates",
+                "BULKINOUT_VENDOR_TOKEN":"",
+                "BULKINOUT_VENDOR_RESOURCE":"Candidate",
+                "BULKINOUT_VENDOR_BASE_URL": "https://rest91.bullhornstaffing.com/rest-services/3ck4is/search"
+            },
+            "skipFiles": [
+                "${workspaceFolder}/node_modules/**/*.js",
+                "${workspaceFolder}/lib/**/*.js",
+                "<node_internals>/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "vendor-smartrecruiters",
+            "runtimeArgs": [
+                "--preserve-symlinks"
+            ],
+            "program": "${workspaceFolder}/index.js",
+            "env": {
+                "DOCTOR_ACCOUNT": "prd",
+                "BULKINOUT_ELEMENT_TOKEN":"",
+                "BULKINOUT_VENDOR_TOKEN": "",
+                "BULKINOUT_ELEMENT_KEY":"smartrecruiters",
+                "BULKINOUT_ELEMENT_RESOURCE":"jobs",
+                "BULKINOUT_VENDOR_BASE_URL": "https://api.smartrecruiters.com"
+            },
+            "skipFiles": [
+                "${workspaceFolder}/node_modules/**/*.js",
+                "${workspaceFolder}/lib/**/*.js",
+                "<node_internals>/**/*.js"
+            ]
+        }
+    ]
+}
